@@ -8,12 +8,12 @@ import tests.reusableTestMethods.pageObject.pageMethods;
 import static tests.reusableTestMethods.testTearDown.terminateAllBrowserInstances.terminateBrowsers;
 
 
-public class lenderIsNotWillingToLendBasedOnMissingInfo extends pageMethods {
+public class lenderIsNotWillingToLendBasedOnMissingPropertyValueInfo extends pageMethods {
 
-    String test_case = "TC5";
+    String test_case = "TC6";
 
     /**
-     * This test references to the test case "TC5" on the spreadsheet here:
+     * This test references to the test case "TC6" on the spreadsheet here:
      * https://docs.google.com/spreadsheets/d/1ylQhPdgWgxmX1WwW-__SO05X9HXZVLSAV20Pj83LbY0/edit?usp=sharing
      */
 
@@ -25,11 +25,11 @@ public class lenderIsNotWillingToLendBasedOnMissingInfo extends pageMethods {
     @Test
     void lenderIsWillingToLendTest(){
         navigateToCalculatorUrl();
-        inputValuesIntoBuyToLetFormPage("81000",
+        inputValuesIntoBuyToLetFormPage("",
                                         "40000",
                                         "1000",
                                         "300",
-                                        "");
+                                        "1.00");
         assertCalculatorResult("--- %",
                                 "Please ensure all fields are completed to generate a result");
 

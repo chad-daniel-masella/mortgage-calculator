@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5f02c20-f281-4c31-a35b-8fb943dddf1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/ableToLendTests/lenderIsWillingToLendTestWherePropertyValIsMoreThanTwoTimesTheLoanAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnMissingInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnRentalIncome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendTestWherePropertyValIsLessThanTwoTimesTheLoanAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnMissingLoanAmountInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnMissingPropertyValueInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/lenderIsWillingToLendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/ableToLendTests/lenderIsWillingToLendTestWherePropertyValIsEqualToTwoTimesTheLoanAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/reusableTestMethods/pageObject/pageMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/reusableTestMethods/pageObject/pageMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/hsbc/calculator/tests/lenderIsWillingToLendTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/reusableTestMethods/pageObject/pageMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/reusableTestMethods/pageObject/pageMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnMissingInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnMissingProductRateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/hsbc/calculator/tests/notAbleToLendTests/lenderIsNotWillingToLendBasedOnMissingInfo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +72,8 @@
       <recent name="tests.hsbc.calculator.tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.lenderIsNotWillingToLendBasedOnMissingInfo">
-    <configuration name="lenderIsNotWillingToLendBasedOnMissingInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.lenderIsNotWillingToLendBasedOnMissingLoanAmountInfo">
+    <configuration name="lenderIsNotWillingToLendBasedOnMissingLoanAmountInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mortgage-calculator" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +82,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests.lenderIsNotWillingToLendBasedOnMissingInfo" />
+      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests.lenderIsNotWillingToLendBasedOnMissingLoanAmountInfo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lenderIsNotWillingToLendBasedOnMissingProductRateInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mortgage-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.hsbc.calculator.tests.notAbleToLendTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests.lenderIsNotWillingToLendBasedOnMissingProductRateInfo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lenderIsNotWillingToLendBasedOnMissingPropertyValueInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mortgage-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.hsbc.calculator.tests.notAbleToLendTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.notAbleToLendTests.lenderIsNotWillingToLendBasedOnMissingPropertyValueInfo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,43 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lenderIsWillingToLendTestWherePropertyValIsEqualToTwoTimesTheLoanAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mortgage-calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hsbc.calculator.tests.notAbleToLendTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests.ableToLendTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.ableToLendTests.lenderIsWillingToLendTestWherePropertyValIsEqualToTwoTimesTheLoanAmount" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lenderIsWillingToLendTestWherePropertyValIsMoreThanTwoTimesTheLoanAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mortgage-calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.hsbc.calculator.tests.notAbleToLendTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests.ableToLendTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.ableToLendTests.lenderIsWillingToLendTestWherePropertyValIsMoreThanTwoTimesTheLoanAmount" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.lenderIsNotWillingToLendBasedOnMissingInfo" />
+        <item itemvalue="JUnit.lenderIsNotWillingToLendBasedOnMissingLoanAmountInfo" />
+        <item itemvalue="JUnit.lenderIsNotWillingToLendBasedOnMissingPropertyValueInfo" />
+        <item itemvalue="JUnit.lenderIsNotWillingToLendBasedOnMissingProductRateInfo" />
         <item itemvalue="JUnit.lenderIsNotWillingToLendTestWherePropertyValIsLessThanTwoTimesTheLoanAmount" />
         <item itemvalue="JUnit.lenderIsNotWillingToLendBasedOnRentalIncome" />
-        <item itemvalue="JUnit.lenderIsWillingToLendTestWherePropertyValIsEqualToTwoTimesTheLoanAmount" />
-        <item itemvalue="JUnit.lenderIsWillingToLendTestWherePropertyValIsMoreThanTwoTimesTheLoanAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1686432959565" duration="2010000" />
       <workItem from="1686435041944" duration="3541000" />
       <workItem from="1686474132852" duration="146000" />
-      <workItem from="1686474285772" duration="21043000" />
+      <workItem from="1686474285772" duration="21742000" />
     </task>
     <servers />
   </component>
