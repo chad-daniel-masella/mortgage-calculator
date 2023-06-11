@@ -12,3 +12,4 @@
 ### 3. Running The Tests
 
 - Clone this repository and complete the setup documentation here as guidance **_Setting Up The _Playwright_ Project_**
+- Tests can be found under the `src/main/java/tests/hsbc.calculator.tests` for execution as per the [Running Tests](https://playwright.dev/java/docs/running-tests) documentation on the playwright.dev website.
