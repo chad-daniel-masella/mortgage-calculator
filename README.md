@@ -17,10 +17,15 @@
 ## Notes:
 
 - For this project I made use of [intelliJ](https://www.jetbrains.com/idea/download/#section=mac)
-- My Operating System macOS - but to get setup should be quite similar on Windows or Linux
+- I made use of macOS - but to get setup should be quite similar on Windows or Linux OS
 - Java Version:
 ```
 openjdk version "20.0.1" 2023-04-18
 OpenJDK Runtime Environment (build 20.0.1+9-29)
 OpenJDK 64-Bit Server VM (build 20.0.1+9-29, mixed mode, sharing)
 ```
+
+## Next Steps:
+
+- Input the tests into a CI/CD CRON job on Jenkins to allow for nightly tests to run
+- Expand on more test scenarios -> jot down scenarios in testrail or another test management tool
