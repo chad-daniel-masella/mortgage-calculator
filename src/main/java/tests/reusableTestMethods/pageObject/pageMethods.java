@@ -98,14 +98,23 @@ public class pageMethods {
         dropDownIsTaxRatePayer.scrollIntoViewIfNeeded();
         dropDownIsTaxRatePayer.selectOption("145");
 
-        pauseTestForSeconds(2000);
+        pauseTestForSeconds(5000);
     }
 
-    public static void assertCalculatorResult(String expectedLoanToValPerc){
+    public static void assertCalculatorResult(String expectedLoanToValPerc,
+                                              String expectedOutcomeResultText){
 
+        // Percentage assertion
         String loanToValPerc = page.locator("//div[@id='ltv-value']").textContent();
         System.out.println("The loanToValPerc is ==== " + loanToValPerc);
         assertThat(page.locator("//div[@id='ltv-value']")).hasText(expectedLoanToValPerc);
+
+        // Result text assertion
+        String outcomeResultText = page.locator("//ul[@class='outcomeResult']//li[1]").textContent();
+        System.out.println("The outcomeResultText is ==== " + outcomeResultText);
+        assertThat(page.locator("//ul[@class='outcomeResult']//li[1]")).hasText(expectedOutcomeResultText);
+
+
     }
 
 }
