@@ -38,7 +38,7 @@ public class pageMethods {
 
         //get the property value and print it out
         propertyValToReturn = prop.getProperty("hsbc.buyToLetCalculatorURL");
-        System.out.println("PROPERTY VALUE IS: " + propertyValToReturn);
+        System.out.println("[INFO]: CALCULATOR URL TESTING AGAINST IS: " + propertyValToReturn);
 
 
         return propertyValToReturn;
@@ -53,11 +53,17 @@ public class pageMethods {
 
     public static void navigateToCalculatorUrl(){
         page.navigate(returnCalculatorUrl());
+
         //assert that you have landed on the "Buy to Let Calculator" page
         assertThat(page.locator("//h1[text()='Buy to Let Calculator ']")).isVisible();
     }
 
     public static void pauseTestForSeconds(int seconds){
+        /**
+         * To allow to pause the execution of a test at a point during execution
+         * Can be used for debugging purposes as well
+         */
+
         try {
             Thread.sleep(seconds);
         } catch (InterruptedException e) {
@@ -113,7 +119,6 @@ public class pageMethods {
         String outcomeResultText = page.locator("//ul[@class='outcomeResult']//li[1]").textContent();
         System.out.println("The outcomeResultText is ==== " + outcomeResultText);
         assertThat(page.locator("//ul[@class='outcomeResult']//li[1]")).hasText(expectedOutcomeResultText);
-
 
     }
 

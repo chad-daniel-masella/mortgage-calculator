@@ -4,20 +4,19 @@ import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.BrowserType;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
+import tests.reusableTestMethods.pageObject.pageMethods;
 
-public class initializeBrowser{
+public class initializeBrowser extends pageMethods{
 
-
+    /**
+     * The idea here is to move all setup methods (instantiating the browser and configurations)
+     * This is not done at the moment, but can be completed in the next iteration
+     */
     public static void initializeChromeBrowser(boolean isHeadless) {
-        try (Playwright playwright = Playwright.create()) {
-            Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(isHeadless).setSlowMo(50));
-            Page page = browser.newPage();
-            page.navigate("https://intermediaries.hsbc.co.uk/calculator/");
-            System.out.println("This is the PAGE TITLE: " + page.title());
-        }
+        Playwright pw = Playwright.create();
+        browser = pw.chromium().launch(new BrowserType.LaunchOptions().setHeadless(isHeadless).setSlowMo(50));
+        browserContext = browser.newContext(new Browser.NewContextOptions().setViewportSize(1800, 880));
+        page = browserContext.newPage();
     }
 
     // TODO: 2023/06/11 paramatize the start browser method to allow different types of browsers to be started from a single method
