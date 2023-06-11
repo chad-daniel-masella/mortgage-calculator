@@ -5,19 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5f02c20-f281-4c31-a35b-8fb943dddf1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mortgage-calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mortgage-calculator.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/hsbc/calculator/tests/lenderIsWillingToLendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/reusableTestMethods/pageObject/pageMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/reusableTestMethods/testSetup/initializeBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tests/reusableTestMethods/testTearDown/terminateAllBrowserInstances.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/environmentConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mortgage-calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mortgage-calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,15 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests.reusableTestMethods.Setup" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.lenderIsWillingToLendTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="mortgage-calculator" />
@@ -91,8 +101,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lenderIsWillingToLendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.lenderIsWillingToLendTest" />
+      <module name="mortgage-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.hsbc.calculator.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lenderIsWillingToLendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mortgage-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.hsbc.calculator.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.lenderIsWillingToLendTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lenderIsWillingToLendTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mortgage-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.hsbc.calculator.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.hsbc.calculator.tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.hsbc.calculator.tests.lenderIsWillingToLendTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.lenderIsWillingToLendTest" />
+        <item itemvalue="Application.lenderIsWillingToLendTest" />
+        <item itemvalue="TestNG.lenderIsWillingToLendTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
       </list>
@@ -111,7 +169,7 @@
       <workItem from="1686432959565" duration="2010000" />
       <workItem from="1686435041944" duration="3541000" />
       <workItem from="1686474132852" duration="146000" />
-      <workItem from="1686474285772" duration="700000" />
+      <workItem from="1686474285772" duration="12424000" />
     </task>
     <servers />
   </component>

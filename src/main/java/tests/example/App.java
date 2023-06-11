@@ -1,4 +1,4 @@
-package org.example;
+package tests.example;
 
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.Browser;

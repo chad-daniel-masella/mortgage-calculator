@@ -11,4 +11,4 @@
 
 ### 3. Running The Tests
 
-- Clone this repository and follow the setup documentation for guidance on **_Setting Up The _Playwright_ Project_**
+- Clone this repository and complete the setup documentation here as guidance **_Setting Up The _Playwright_ Project_**
