@@ -19,14 +19,18 @@ public class lenderIsWillingToLendTest extends pageMethods {
 
     @BeforeAll
     public static void initializeBrowser(){
-        //to call initialize browser method
-        //initializeBrowser.initializeChromeBrowser(false);
         initializeChromeBrowser(false);
     }
 
     @Test
     void lenderIsWillingToLendTest(){
         navigateToCalculatorUrl();
+        inputValuesIntoBuyToLetFormPage("80000",
+                                        "40000",
+                                        "1000",
+                                        "323",
+                                        "1.00");
+        assertCalculatorResult("50.00 %");
 
 
     }
